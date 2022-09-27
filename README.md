@@ -90,41 +90,79 @@ Precinct geojson file: https://www1.nyc.gov/site/planning/data-maps/open-data/di
 
 
 ├── README.md
+
 ├── Crimes_Notebook
-├── Stop_and_Frisk_Timeseries_Data_Prep.ipynb                     *** DATA PREP NOTEBOOK
+
+├── Stop_and_Frisk_Timeseries_Data_Prep.ipynb                       *** DATA PREP NOTEBOOK
+
 ├── Stop_and_Frisk_Timeseries_Notebook.ipynb
-├── Stop_and_Frisk_Timeseries_Notebook_Monthly.ipynb              *** MAIN NOTEBOOK
+
+├── Stop_and_Frisk_Timeseries_Notebook_Monthly.ipynb                *** MAIN NOTEBOOK
+
 ├── images
-    ├──NYPD_budget.webp
-    ├──2011_2021_SAF_Outcomes.png
-    ├──NYPD_budget.webp
-    ├──nypd_badge.png
-    ├──Not_Arrested_By_Race.png
-    ├──seasonal-bars-1200.webp
-    ├──2021_SAF_Overview.png
-    ├──2011-2021_SAF_Overview.png
-    ├──Top_10_Precicnts_Failing_To_Minimize.png
-    ├──IMA_in_action.png
+
+   ├──NYPD_budget.webp
+    
+   ├──2011_2021_SAF_Outcomes.png
+    
+   ├──NYPD_budget.webp
+    
+   ├──nypd_badge.png
+    
+   ├──Not_Arrested_By_Race.png
+    
+   ├──seasonal-bars-1200.webp
+    
+   ├──2021_SAF_Overview.png
+    
+   ├──2011-2021_SAF_Overview.png
+   
+   ├──Top_10_Precicnts_Failing_To_Minimize.png
+    
+   ├──IMA_in_action.png
+    
 ├── raw_data
-    ├──SF_2011.csv.gz
-    ├──SF_2012.csv.gz
-    ├──SF_2013.csv.gz
-    ├──SF_2014.csv.gz
-    ├──SF_2015.csv.gz
-    ├──SF_2016.csv.gz
-    ├──SF_2017.csv.gz
-    ├──SF_2018.csv.gz
-    ├──SF_2019.csv.gz
-    ├──SF_2020.csv.gz
-    ├──SF_2021.csv.gz
+
+   ├──SF_2011.csv.gz
+    
+   ├──SF_2012.csv.gz
+    
+   ├──SF_2013.csv.gz
+    
+   ├──SF_2014.csv.gz
+    
+   ├──SF_2015.csv.gz
+    
+   ├──SF_2016.csv.gz
+    
+   ├──SF_2017.csv.gz
+   
+   ├──SF_2018.csv.gz
+    
+   ├──SF_2019.csv.gz
+    
+   ├──SF_2020.csv.gz
+    
+   ├──SF_2021.csv.gz
+    
 ├── tableau_data
-    ├──precincts.json
-    ├──2021_analysis.ipynb
-    ├──2021_data.csv
-    ├──ten_years_tableau_data.csv
+
+   ├──precincts.json
+    
+   ├──2021_analysis.ipynb
+    
+   ├──2021_data.csv
+    
+   ├──ten_years_tableau_data.csv
+    
 ├── new_data
-    ├──stop_and_frisk_no_race.csv
-    ├──stop_and_frisk_w_race.csv
+
+   ├──stop_and_frisk_no_race.csv
+    
+   ├──stop_and_frisk_w_race.csv
+    
 ├── .DS_Store
+
 ├── .gitattributes
+
 ├── .gitignore
