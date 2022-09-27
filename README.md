@@ -94,6 +94,7 @@ Precinct geojson file: https://www1.nyc.gov/site/planning/data-maps/open-data/di
 ├── Stop_and_Frisk_Timeseries_Data_Prep.ipynb                       *** DATA PREP NOTEBOOK
 ├── Stop_and_Frisk_Timeseries_Notebook.ipynb
 ├── Stop_and_Frisk_Timeseries_Notebook_Monthly.ipynb                *** MAIN NOTEBOOK
+├── SAF_Presentation.pdf
 ├── images
    ├──NYPD_budget.webp
    ├──2011_2021_SAF_Outcomes.png
