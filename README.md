@@ -10,14 +10,14 @@ There's a racial disparity problem with stop-and-frisk, making it especially imp
 ![Not Arrested By Race](https://user-images.githubusercontent.com/8728172/192607158-66c40036-7fdf-4e74-89e4-935aa0df5361.png)
 
 
-Hypothetical Business Case : NYPD, in partnership with the city cousil has hired me, a data expert to do data analysis and use machine learning to try and limit stops that do not lead to an arrest. They are looking for actionable insights and reccomendations.
+Hypothetical Business Case : NYPD, in partnership with the city cousil, has hired me, a data expert to do data analysis and use machine learning to try and limit stops that do not lead to an arrest. They are looking for actionable insights and reccomendations.
 
-Proposed Solution : A time series model which can predict seasonaility of stop-and-frisks that do not lead to an arrest. NYPD can act by limiting stops during times when stops are unlikey to lead to arrest. 
+Proposed Solution : A time series model which can predict seasonality of stop-and-frisks that do not lead to an arrest. NYPD can act by limiting stops during times when stops are unlikey to lead to arrest. 
 
 Why time series modeling with this data:
 - Crime has provable seasonality[https://pinkerton.com/our-insights/blog/the-seasonality-of-crime]
 
-- Time data doesn't contain demegraphic information. It's unethical to predict which demegraphics of people will commit future crimes. 
+- Time data doesn't contain demographic information. It's unethical to predict which demographics of people will commit future crimes. 
 
 
 Dashboards for Data Analysis: 
@@ -80,7 +80,7 @@ RECOMMENDATIONS TO NYPD:
 
 
 **FUTURE WORK: **
-- Try adding more variable to make SARIMAX model (esp interested in Precinct and Suspected Crime) 
+- Try adding more variables to make SARIMAX model (esp interested in Precinct and Suspected Crime) 
 - Try a categorical model without using time as a factor
 
 
