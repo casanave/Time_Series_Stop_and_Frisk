@@ -88,8 +88,7 @@ Stop and Frisk Data: https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopf
 
 Precinct geojson file: https://www1.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page
 
-
-`
+``` 
 ├── README.md
 ├── Crimes_Notebook
 ├── Stop_and_Frisk_Timeseries_Data_Prep.ipynb                       *** DATA PREP NOTEBOOK
@@ -129,3 +128,4 @@ Precinct geojson file: https://www1.nyc.gov/site/planning/data-maps/open-data/di
 ├── .DS_Store
 ├── .gitattributes
 ├── .gitignore
+```
