@@ -59,19 +59,30 @@ Tuning Methods:
 
 
 MODELING RESULTS:
+
 NAIVE MODEL: 2% off on average 
+
 RANDOM WALK MODEL: 10% off on average 
+
 ARI MODEL: 10% off on average 
-IMA MODEL: 10% off on average (rounded slightly lower than other non-naive models) 
+
+IMA MODEL: 10% off on average (rounded slightly lower than other non-naive models)
+
 SARIMA MODEL: 10% off on average 
 
+
 MODELING CONCLUSIONS:
+
 Sophisticated modeling does NOT offer predictive capabilities for spikes in not-arrest rates only based on timing of stop. 
+
 Sophisticated modeling DOES offer anomaly detection inferentially for when spikes in not-arrest rates are historically unprecidented. 
+
 Naive modeling's sucsess is plain evidence of NYPD needing to be more receptive to when last month's stops did not lead to arrest and do less stops during those months as a resonable reaction. 
 
 RECOMMENDATIONS TO NYPD: 
+
 - Do less stops if not-arrested rates spiked last month
+
 - Use IMA model to recognize outliers as is shown below
 
 ![IMA_in_action](https://user-images.githubusercontent.com/8728172/192613511-a0ab4dd6-3f2b-4848-94b4-098d732bf378.png)
@@ -82,7 +93,9 @@ RECOMMENDATIONS TO NYPD:
 
 
 **FUTURE WORK: **
+
 - Try adding more variables to make SARIMAX model (esp interested in Precinct and Suspected Crime) 
+
 - Try a categorical model without using time as a factor
 
 
