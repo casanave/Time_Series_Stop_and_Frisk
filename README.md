@@ -23,6 +23,7 @@ Why time series modeling with this data:
 Dashboards for Data Analysis: 
 - 1,545,827 stops
 - 10 Years Since 2011
+
 Features: Precinct, Race, Outcome, Time 
 
 
@@ -31,6 +32,7 @@ Results:
 
 - 8,947 stops
 - 2021 only
+
 Features: Precinct, Race, Outcome, Time, Suspected Crime, Age, Physical Force Used
 
 
