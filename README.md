@@ -105,11 +105,8 @@ Precinct geojson file: https://www1.nyc.gov/site/planning/data-maps/open-data/di
 
 ``` 
 ├── README.md
-├── Crimes_Notebook
-├── Stop_and_Frisk_Timeseries_Data_Prep.ipynb                       *** DATA PREP NOTEBOOK
-├── Stop_and_Frisk_Timeseries_Notebook.ipynb
 ├── Stop_and_Frisk_Timeseries_Notebook_Monthly.ipynb                *** MAIN NOTEBOOK
-├── SAF_Presentation.pdf
+├── SAF_Presentation.pdf                                            *** PRESENTATION SLIDES
 ├── images
    ├──NYPD_budget.webp
    ├──2011_2021_SAF_Outcomes.png
@@ -141,6 +138,10 @@ Precinct geojson file: https://www1.nyc.gov/site/planning/data-maps/open-data/di
 ├── new_data
    ├──stop_and_frisk_no_race.csv 
    ├──stop_and_frisk_w_race.csv 
+├──non_main_notebooks  
+   ├── Crimes_Notebook                                              *** FURTHER WORK
+├── Stop_and_Frisk_Timeseries_Data_Prep.ipynb                       *** DATA PREP NOTEBOOK
+├── Stop_and_Frisk_Timeseries_Notebook.ipynb                        *** FURTHER WORK
 ├── .DS_Store
 ├── .gitattributes
 ├── .gitignore
