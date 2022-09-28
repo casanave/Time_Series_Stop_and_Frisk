@@ -10,19 +10,20 @@ There's a racial disparity problem with stop-and-frisk, making it especially imp
 ![Not Arrested By Race](https://user-images.githubusercontent.com/8728172/192607158-66c40036-7fdf-4e74-89e4-935aa0df5361.png)
 
 
-Hypothetical Business Case : NYPD, in partnership with the city cousil has hired me, a data expert to do data analysis and use machine learning to try and limit stops that do not lead to an arrest. They are looking for actionable insights and reccomendations.
+Hypothetical Business Case : NYPD, in partnership with the city cousil, has hired me, a data expert to do data analysis and use machine learning to try and limit stops that do not lead to an arrest. They are looking for actionable insights and reccomendations.
 
-Proposed Solution : A time series model which can predict seasonaility of stop-and-frisks that do not lead to an arrest. NYPD can act by limiting stops during times when stops are unlikey to lead to arrest. 
+Proposed Solution : A time series model which can predict seasonality of stop-and-frisks that do not lead to an arrest. NYPD can act by limiting stops during times when stops are unlikey to lead to arrest. 
 
 Why time series modeling with this data:
 - Crime has provable seasonality[https://pinkerton.com/our-insights/blog/the-seasonality-of-crime]
 
-- Time data doesn't contain demegraphic information. It's unethical to predict which demegraphics of people will commit future crimes. 
+- Time data doesn't contain demographic information. It's unethical to predict which demographics of people will commit future crimes. 
 
 
 Dashboards for Data Analysis: 
 - 1,545,827 stops
 - 10 Years Since 2011
+
 Features: Precinct, Race, Outcome, Time 
 
 
@@ -31,6 +32,7 @@ Results:
 
 - 8,947 stops
 - 2021 only
+
 Features: Precinct, Race, Outcome, Time, Suspected Crime, Age, Physical Force Used
 
 
@@ -57,19 +59,30 @@ Tuning Methods:
 
 
 MODELING RESULTS:
+
 NAIVE MODEL: 2% off on average 
+
 RANDOM WALK MODEL: 10% off on average 
+
 ARI MODEL: 10% off on average 
-IMA MODEL: 10% off on average (rounded slightly lower than other non-naive models) 
+
+IMA MODEL: 10% off on average (rounded slightly lower than other non-naive models)
+
 SARIMA MODEL: 10% off on average 
 
+
 MODELING CONCLUSIONS:
+
 Sophisticated modeling does NOT offer predictive capabilities for spikes in not-arrest rates only based on timing of stop. 
+
 Sophisticated modeling DOES offer anomaly detection inferentially for when spikes in not-arrest rates are historically unprecidented. 
+
 Naive modeling's sucsess is plain evidence of NYPD needing to be more receptive to when last month's stops did not lead to arrest and do less stops during those months as a resonable reaction. 
 
 RECOMMENDATIONS TO NYPD: 
+
 - Do less stops if not-arrested rates spiked last month
+
 - Use IMA model to recognize outliers as is shown below
 
 ![IMA_in_action](https://user-images.githubusercontent.com/8728172/192613511-a0ab4dd6-3f2b-4848-94b4-098d732bf378.png)
@@ -80,7 +93,9 @@ RECOMMENDATIONS TO NYPD:
 
 
 **FUTURE WORK: **
-- Try adding more variable to make SARIMAX model (esp interested in Precinct and Suspected Crime) 
+
+- Try adding more variables to make SARIMAX model (esp interested in Precinct and Suspected Crime) 
+
 - Try a categorical model without using time as a factor
 
 
@@ -94,6 +109,7 @@ Precinct geojson file: https://www1.nyc.gov/site/planning/data-maps/open-data/di
 ├── Stop_and_Frisk_Timeseries_Data_Prep.ipynb                       *** DATA PREP NOTEBOOK
 ├── Stop_and_Frisk_Timeseries_Notebook.ipynb
 ├── Stop_and_Frisk_Timeseries_Notebook_Monthly.ipynb                *** MAIN NOTEBOOK
+├── SAF_Presentation.pdf
 ├── images
    ├──NYPD_budget.webp
    ├──2011_2021_SAF_Outcomes.png
